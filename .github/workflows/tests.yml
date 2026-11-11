@@ -63,7 +63,7 @@ concurrency:
 
 jobs:
   ci:
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
 
     # This job has no MySQL/db service — it's SQLite-only (see
     # phpunit.xml) — but .env.example's DB_CONNECTION=mysql/DB_HOST=db is
